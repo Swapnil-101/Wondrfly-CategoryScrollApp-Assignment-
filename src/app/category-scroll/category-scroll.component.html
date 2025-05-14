@@ -1,0 +1,38 @@
+<div class="container">
+
+  <div class="categories-container" #categoryContainer>
+    <div class="categories">
+      <button 
+        *ngFor="let category of categories" 
+        [class.active]="category === activeCategory()"
+        (click)="selectCategory(category)"
+        #categoryButton
+        class="category-btn">
+        {{ category }}
+      </button>
+    </div>
+  </div>
+  
+
+  <div class="data-container" #dataContainer>
+    <div 
+      *ngFor="let categoryData of data" 
+      class="category-section"
+      [attr.data-category]="categoryData.name"
+      #categorySection>
+      
+      <h2 class="category-header">{{ categoryData.name }}</h2>
+      
+      <div class="providers-list">
+        <div *ngFor="let provider of categoryData.providers" class="provider-card">
+          <div class="provider-image">
+          
+            <img [src]="provider.image" [alt]="provider.name" 
+                 onerror="this.src='https://via.placeholder.com/150'; this.onerror='';">
+          </div>
+          <div class="provider-name">{{ provider.name }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
