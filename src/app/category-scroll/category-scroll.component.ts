@@ -36,94 +36,96 @@ export class CategoryScrollComponent implements AfterViewInit {
     'Cooking', 'Photography', 'Education', 'Health', 'Business', 'Travel'
   ];
 
+  // images ='https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg'
+
   data: CategoryData[] = [
     { 
       name: 'Sports', 
       providers: [
-        { name: 'Sports Pro 1', image: 'assets/sports1.jpg' },
-        { name: 'Sports Pro 2', image: 'assets/sports2.jpg' },
-        { name: 'Sports Pro 3', image: 'assets/sports3.jpg' },
-        { name: 'Sports Pro 4', image: 'assets/sports4.jpg' },
+        { name: 'Sports Pro 1', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
+        { name: 'Sports Pro 2', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
+        { name: 'Sports Pro 3', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
+        { name: 'Sports Pro 4', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
       ],
     },
     { 
       name: 'Dance', 
       providers: [
-        { name: 'Dance Pro 1', image: 'assets/dance1.jpg' },
-        { name: 'Dance Pro 2', image: 'assets/dance2.jpg' },
-        { name: 'Dance Pro 3', image: 'assets/dance3.jpg' },
+        { name: 'Dance Pro 1', image:'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
+        { name: 'Dance Pro 2', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
+        { name: 'Dance Pro 3', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
       ],
     },
     { 
       name: 'Music', 
       providers: [
-        { name: 'Music Pro 1', image: 'assets/music1.jpg' },
-        { name: 'Music Pro 2', image: 'assets/music2.jpg' },
+        { name: 'Music Pro 1', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
+        { name: 'Music Pro 2', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
       ],
     },
     { 
       name: 'Art', 
       providers: [
-        { name: 'Art Pro 1', image: 'assets/art1.jpg' },
-        { name: 'Art Pro 2', image: 'assets/art2.jpg' },
-        { name: 'Art Pro 3', image: 'assets/art3.jpg' },
+        { name: 'Art Pro 1', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
+        { name: 'Art Pro 2', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
+        { name: 'Art Pro 3', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
       ],
     },
     { 
       name: 'Fitness', 
       providers: [
-        { name: 'Fitness Pro 1', image: 'assets/fitness1.jpg' },
-        { name: 'Fitness Pro 2', image: 'assets/fitness2.jpg' },
+        { name: 'Fitness Pro 1', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
+        { name: 'Fitness Pro 2', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
       ],
     },
     { 
       name: 'Technology', 
       providers: [
-        { name: 'Tech Pro 1', image: 'assets/tech1.jpg' },
-        { name: 'Tech Pro 2', image: 'assets/tech2.jpg' },
-        { name: 'Tech Pro 3', image: 'assets/tech3.jpg' },
+        { name: 'Tech Pro 1', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
+        { name: 'Tech Pro 2', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
+        { name: 'Tech Pro 3', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
       ],
     },
     { 
       name: 'Cooking', 
       providers: [
-        { name: 'Cooking Pro 1', image: 'assets/cooking1.jpg' },
-        { name: 'Cooking Pro 2', image: 'assets/cooking2.jpg' },
+        { name: 'Cooking Pro 1', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg'},
+        { name: 'Cooking Pro 2', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
       ],
     },
     { 
       name: 'Photography', 
       providers: [
-        { name: 'Photo Pro 1', image: 'assets/photo1.jpg' },
-        { name: 'Photo Pro 2', image: 'assets/photo2.jpg' },
+        { name: 'Photo Pro 1', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg'},
+        { name: 'Photo Pro 2', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
       ],
     },
     { 
       name: 'Education', 
       providers: [
-        { name: 'Education Pro 1', image: 'assets/education1.jpg' },
-        { name: 'Education Pro 2', image: 'assets/education2.jpg' },
+        { name: 'Education Pro 1', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
+        { name: 'Education Pro 2', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
       ],
     },
     { 
       name: 'Health', 
       providers: [
-        { name: 'Health Pro 1', image: 'assets/health1.jpg' },
-        { name: 'Health Pro 2', image: 'assets/health2.jpg' },
+        { name: 'Health Pro 1', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
+        { name: 'Health Pro 2', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
       ],
     },
     { 
       name: 'Business', 
       providers: [
-        { name: 'Business Pro 1', image: 'assets/business1.jpg' },
-        { name: 'Business Pro 2', image: 'assets/business2.jpg' },
+        { name: 'Business Pro 1', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
+        { name: 'Business Pro 2', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg'},
       ],
     },
     { 
       name: 'Travel', 
       providers: [
-        { name: 'Travel Pro 1', image: 'assets/travel1.jpg' },
-        { name: 'Travel Pro 2', image: 'assets/travel2.jpg' },
+        { name: 'Travel Pro 1', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
+        { name: 'Travel Pro 2', image: 'https://thunderdungeon.com/wp-content/uploads/2025/02/funny-cats-24-20250212.jpg' },
       ],
     },
   ];
